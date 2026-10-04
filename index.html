@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Appartement T3 de 56,5 m² à louer à Dammarie-les-Lys, avec 2 chambres, terrasse et 2 places de parking.">
+
+    <title>
+        Appartement T3 à louer | Dammarie-les-Lys
+    </title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="container header__content">
+
+            <a href="#accueil" class="logo">
+                <span class="logo__icon">⌂</span>
+
+                <span>
+                    <strong>Le T3</strong>
+                    <small>Dammarie-les-Lys</small>
+                </span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu">
+                ☰
+            </button>
+
+            <nav class="nav" id="mainNav">
+
+                <a href="#accueil">Accueil</a>
+                <a href="#galerie">Galerie</a>
+                <a href="#video">Vidéo</a>
+                <a href="#appartement">L'appartement</a>
+                <a href="#localisation">Localisation</a>
+
+                <a href="#contact" class="btn btn--small">
+                    Nous contacter
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+         HERO / GALERIE
+    ========================== -->
+
+        <section class="hero" id="accueil">
+
+            <div class="container">
+
+                <div class="gallery" id="galerie">
+
+                    <!-- Miniatures -->
+
+                    <div class="gallery__thumbnails" id="galleryThumbnails">
+                    </div>
+
+
+                    <!-- Image principale -->
+
+                    <div class="gallery__main">
+
+                        <img id="mainImage" src="assets/images/salon-01.jpg" alt="Salon de l'appartement">
+
+                        <div class="gallery__overlay"></div>
+
+
+                        <button class="gallery__arrow gallery__arrow--left" id="previousImage"
+                            aria-label="Photo précédente">
+                            ‹
+                        </button>
+
+
+                        <button class="gallery__arrow gallery__arrow--right" id="nextImage" aria-label="Photo suivante">
+                            ›
+                        </button>
+
+
+                        <div class="gallery__counter" id="galleryCounter">
+                            1 / 10
+                        </div>
+
+
+                        <div class="gallery__caption">
+
+                            <span id="imageCategory">
+                                Salon
+                            </span>
+
+                            <h2 id="imageTitle">
+                                Un espace de vie lumineux
+                            </h2>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Introduction -->
+
+                <div class="property-intro">
+
+                    <div>
+
+                        <span class="eyebrow">
+                            Appartement à louer
+                        </span>
+
+                        <h1>
+                            Appartement T3
+                            <span>— 56,5 m²</span>
+                        </h1>
+
+                        <p class="property-intro__location">
+                            168 rue de Bel Ombre,
+                            77190 Dammarie-les-Lys
+                        </p>
+
+                    </div>
+
+
+                    <a href="#contact" class="btn">
+                        Demander une visite
+                    </a>
+
+                </div>
+
+
+                <!-- Informations rapides -->
+
+                <div class="features">
+
+                    <article class="feature">
+                        <span class="feature__icon">▱</span>
+                        <strong>56,5 m²</strong>
+                        <span>Surface</span>
+                    </article>
+
+
+                    <article class="feature">
+                        <span class="feature__icon">▤</span>
+                        <strong>2</strong>
+                        <span>Chambres</span>
+                    </article>
+
+
+                    <article class="feature">
+                        <span class="feature__icon">⌂</span>
+                        <strong>1</strong>
+                        <span>Salon</span>
+                    </article>
+
+
+                    <article class="feature">
+                        <span class="feature__icon">◫</span>
+                        <strong>1</strong>
+                        <span>Douche</span>
+                    </article>
+
+
+                    <article class="feature">
+                        <span class="feature__icon">WC</span>
+                        <strong>1</strong>
+                        <span>Toilette</span>
+                    </article>
+
+
+                    <article class="feature">
+                        <span class="feature__icon">P</span>
+                        <strong>2</strong>
+                        <span>Parkings</span>
+                    </article>
+
+
+                    <article class="feature">
+                        <span class="feature__icon">☀</span>
+                        <strong>1,5 m²</strong>
+                        <span>Terrasse</span>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- =========================
+     VISITE VIDÉO
+========================== -->
+
+        <section class="section video-section" id="video">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="eyebrow">
+                        Visite vidéo
+                    </span>
+
+                    <h2>
+                        Découvrez l’appartement en vidéo
+                    </h2>
+
+                    <p>
+                        Parcourez les différentes pièces de l’appartement
+                        et découvrez son agencement avant votre visite.
+                    </p>
+
+                </div>
+
+                <div class="video-tour">
+
+                    <video class="video-tour__player" controls preload="metadata" poster="assets/images/salon-01.jpg">
+                        <source src="assets/videos/video-appartement.mp4" type="video/mp4">
+
+                        Votre navigateur ne prend pas en charge
+                        la lecture de vidéos.
+                    </video>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- =========================
+         DESCRIPTION
+    ========================== -->
+
+        <section class="section" id="appartement">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="eyebrow">
+                        L'appartement
+                    </span>
+
+                    <h2>
+                        Un T3 fonctionnel et agréable à vivre
+                    </h2>
+
+                    <p>
+                        Découvrez un appartement de 56,5 m² comprenant
+                        un salon, deux chambres, une salle de douche,
+                        un WC séparé, ainsi que deux places de parking.
+                        L'une des chambres bénéficie également d'une
+                        petite terrasse privative de 1,5 m².
+                    </p>
+
+                </div>
+
+
+                <div class="rooms-grid">
+
+                    <article class="room-card">
+
+                        <span class="room-card__number">
+                            01
+                        </span>
+
+                        <h3>
+                            Le salon
+                        </h3>
+
+                        <p>
+                            Une pièce de vie centrale pensée pour
+                            accueillir un espace salon confortable.
+                        </p>
+
+                    </article>
+
+
+                    <article class="room-card">
+
+                        <span class="room-card__number">
+                            02
+                        </span>
+
+                        <h3>
+                            Chambre avec terrasse
+                        </h3>
+
+                        <p>
+                            Une chambre disposant d'un accès direct
+                            à une terrasse privative d'environ 1,5 m².
+                        </p>
+
+                    </article>
+
+
+                    <article class="room-card">
+
+                        <span class="room-card__number">
+                            03
+                        </span>
+
+                        <h3>
+                            Deuxième chambre
+                        </h3>
+
+                        <p>
+                            Une seconde chambre pouvant servir
+                            de chambre, bureau ou espace polyvalent.
+                        </p>
+
+                    </article>
+
+
+                    <article class="room-card">
+
+                        <span class="room-card__number">
+                            04
+                        </span>
+
+                        <h3>
+                            Salle de douche
+                        </h3>
+
+                        <p>
+                            Une salle d'eau indépendante équipée
+                            d'une douche.
+                        </p>
+
+                    </article>
+
+
+                    <article class="room-card">
+
+                        <span class="room-card__number">
+                            05
+                        </span>
+
+                        <h3>
+                            WC séparé
+                        </h3>
+
+                        <p>
+                            Les toilettes sont séparées de
+                            la salle de douche.
+                        </p>
+
+                    </article>
+
+
+                    <article class="room-card">
+
+                        <span class="room-card__number">
+                            06
+                        </span>
+
+                        <h3>
+                            Deux parkings
+                        </h3>
+
+                        <p>
+                            Le logement dispose de deux places
+                            de stationnement.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+         PHOTO LARGE
+    ========================== -->
+
+        <section class="highlight">
+
+            <img src="assets/images/chambre-terrasse.jpg" alt="Chambre avec terrasse">
+
+            <div class="highlight__overlay"></div>
+
+            <div class="highlight__content">
+
+                <span class="eyebrow eyebrow--light">
+                    Un petit plus
+                </span>
+
+                <h2>
+                    Une chambre avec
+                    terrasse privative
+                </h2>
+
+                <p>
+                    Une ouverture supplémentaire vers l'extérieur
+                    avec environ 1,5 m² de terrasse.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+         LOCALISATION
+    ========================== -->
+
+        <section class="section section--grey" id="localisation">
+
+            <div class="container location-grid">
+
+
+                <div class="location-info">
+
+                    <span class="eyebrow">
+                        Localisation
+                    </span>
+
+                    <h2>
+                        Dammarie-les-Lys
+                    </h2>
+
+                    <p class="location-address">
+                        168 rue de Bel Ombre<br>
+                        77190 Dammarie-les-Lys
+                    </p>
+
+                    <p>
+                        Consultez la localisation du logement
+                        et préparez votre trajet avant une visite.
+                    </p>
+
+                    <a href="https://www.google.com/maps/search/?api=1&query=168+rue+de+Bel+Ombre+77190+Dammarie-les-Lys"
+                        target="_blank" rel="noopener noreferrer" class="btn">
+                        Voir sur Google Maps
+                    </a>
+
+                </div>
+
+
+                <div class="location-card">
+
+                    <span class="location-card__pin">
+                        ●
+                    </span>
+
+                    <div>
+
+                        <strong>
+                            168 rue de Bel Ombre
+                        </strong>
+
+                        <span>
+                            77190 Dammarie-les-Lys
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+         CONTACT
+    ========================== -->
+
+        <section class="contact" id="contact">
+
+            <div class="container contact__content">
+
+                <div>
+
+                    <span class="eyebrow eyebrow--light">
+                        Intéressé par le logement ?
+                    </span>
+
+                    <h2>
+                        Vous souhaitez organiser
+                        une visite ?
+                    </h2>
+
+                    <p>
+                        Contactez-moi pour obtenir davantage
+                        d'informations ou convenir d'un rendez-vous.
+                    </p>
+
+                </div>
+
+
+                <div class="contact__actions">
+
+                    <!-- À remplacer plus tard -->
+
+                    <a href="mailto:votre-email@example.com" class="btn btn--light">
+                        Envoyer un e-mail
+                    </a>
+
+                    <a href="tel:+33600000000" class="btn btn--outline-light">
+                        Appeler
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <footer class="footer">
+
+        <div class="container footer__content">
+
+            <div>
+                <strong>
+                    Appartement T3 — Dammarie-les-Lys
+                </strong>
+
+                <p>
+                    56,5 m² · 2 chambres · 2 parkings
+                </p>
+            </div>
+
+            <p>
+                © <span id="currentYear"></span>
+                — Tous droits réservés
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
