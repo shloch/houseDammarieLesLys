@@ -64,7 +64,7 @@ const apartmentImages = [
         title: "Votre ascenseur"
     },
     {
-        src: "assets/images/ascenseur1.jpeg",
+        src: "assets/images/ascenseur2.jpeg",
         category: "Batiment",
         title: "Votre ascenseur"
     },
