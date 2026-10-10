@@ -52,6 +52,41 @@ const apartmentImages = [
         src: "assets/images/parking-02.jpg",
         category: "Stationnement",
         title: "Deuxième place de parking"
+    },
+    {
+        src: "assets/images/exterieur.jpg",
+        category: "Batiment",
+        title: "Batiment bien entretenu"
+    },
+    {
+        src: "assets/images/ascenseur1.jpeg",
+        category: "Batiment",
+        title: "Votre ascenseur"
+    },
+    {
+        src: "assets/images/ascenseur1.jpeg",
+        category: "Batiment",
+        title: "Votre ascenseur"
+    },
+    {
+        src: "assets/images/ascenseur3.jpeg",
+        category: "Batiment",
+        title: "Votre ascenseur"
+    },
+    {
+        src: "assets/images/toilet.jpeg",
+        category: "Batiment",
+        title: "Toilet fonctionnel avec rangement"
+    },
+    {
+        src: "assets/images/hall.jpeg",
+        category: "Batiment",
+        title: "Votre Hall d'entrée"
+    },
+    {
+        src: "assets/images/plan.png",
+        category: "Batiment",
+        title: "Plan de l'apart"
     }
 ];
 
