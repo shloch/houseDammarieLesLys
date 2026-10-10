@@ -51,7 +51,7 @@ const apartmentImages = [
     {
         src: "assets/images/parking-02.jpg",
         category: "Stationnement",
-        title: "Deuxième place de parking"
+        title: "Hall de parking"
     },
     {
         src: "assets/images/exterieur.jpg",
