@@ -79,11 +79,6 @@ const apartmentImages = [
         title: "Toilet fonctionnel avec rangement"
     },
     {
-        src: "assets/images/hall.jpeg",
-        category: "Batiment",
-        title: "Votre Hall d'entrée"
-    },
-    {
         src: "assets/images/plan.png",
         category: "Batiment",
         title: "Plan de l'apart"
