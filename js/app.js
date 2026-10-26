@@ -19,11 +19,6 @@ const apartmentImages = [
         title: "Une première chambre confortable"
     },
     {
-        src: "assets/images/chambre-terrasse.jpg",
-        category: "Chambre avec terrasse",
-        title: "Un accès direct à l'extérieur"
-    },
-    {
         src: "assets/images/chambre-02.jpg",
         category: "Deuxième chambre",
         title: "Un espace polyvalent"
@@ -60,16 +55,6 @@ const apartmentImages = [
     },
     {
         src: "assets/images/ascenseur1.jpeg",
-        category: "Batiment",
-        title: "Votre ascenseur"
-    },
-    {
-        src: "assets/images/ascenseur2.jpeg",
-        category: "Batiment",
-        title: "Votre ascenseur"
-    },
-    {
-        src: "assets/images/ascenseur3.jpeg",
         category: "Batiment",
         title: "Votre ascenseur"
     },
